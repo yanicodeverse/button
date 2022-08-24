@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 70vh;
+    width: 100%;
+    align-items: center;
+
+}
+
+.btn{
+    font-family: 'Rubik Iso', cursive;
+    padding: 50px 100px;
+    border-style: none;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    
+    border-radius: 25px;
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: -16px 11px 32px -8px #ff9f29;
+    color: #F900BF;
+    text-shadow: 4px 4px 15px rgb(255 0 0);
+
+    background-color: #000000;
+
+}
+
+
+
+.btn:hover{
+    transform: rotateX(15deg);
+    transform: rotateY(15deg);
+    transition: 0.3s ease-in-out;
+    box-shadow: 16px -11px 32px -8px #FFF9D7;
+    background-color: #00000 ;
+    color: #E8F9FD;
+    
+}
+
+@media screen and (max-width:250px){
+    .container{
+        max-width: 80vw ;
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        padding: 25px 50px;
+      
+    }
+}
